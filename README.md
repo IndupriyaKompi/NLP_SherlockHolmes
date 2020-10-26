@@ -14,24 +14,29 @@ Used nltk 'punkt' libraries to determine the parts of speech, tf-idf to determin
 
 ## 3. _Summerizing.ipynb- 
 As an attempt to summerize each chapter, we used sumy package to summerise.
-### 3.1 LexRank 
-LexRank is an unsupervised approach to text summarization based on graph-based centrality scoring of sentences
+  ### 3.1 LexRank 
+  LexRank is an unsupervised approach to text summarization based on graph-based centrality scoring of sentences.
 
-### 3.2 LuhnSummariser
-Luhn’s algorithm is a naive approach based on TF-IDF and looking at the “window size” of non-important words between words of high importance. It also assigns higher weights to sentences occurring near the beginning of a document.
+  ### 3.2 LuhnSummariser
+  Luhn’s algorithm is a naive approach based on TF-IDF and looking at the “window size” of non-important words between words of high importance. It also assigns higher weights   to sentences occurring near the beginning of a document.
 
-### 3.3 LsaSummarizer 
-Latent Semantic Analysis is a algorithm which combines term frequency with singular value decomposition.
+  ### 3.3 LsaSummarizer 
+  Latent Semantic Analysis is a algorithm which combines term frequency with singular value decomposition.
 
-### 3.4 TextRankSummarizer
-Text Summarizer based on the ideas of PageRank
+  ### 3.4 TextRankSummarizer
+  Text Summarizer based on the ideas of PageRank.
 
-### 3.5 KLSummarizer
-The KLSum algorithm is a greedy method which adds sentences to the summary as long as the KL Divergence (a measure of entropy) is decreasing.
+  ### 3.5 KLSummarizer
+  The KLSum algorithm is a greedy method which adds sentences to the summary as long as the KL Divergence (a measure of entropy) is decreasing.
 
-### 3.6 ReductionSummarizer
-The Reduction algorithm is another graph-based model which values sentences according to the sum of the weights of their edges to other sentences in the document.
+  ### 3.6 ReductionSummarizer
+  The Reduction algorithm is another graph-based model which values sentences according to the sum of the weights of their edges to other sentences in the document.
 
-## 4. _Summerizing_with_LDA.ipynb
-## 5. _Sentiment_Analysis.ipynb
-## 6. _last_Sherlock_with_Cloud_TPUs_and_Keras.ipynb
+## 4. _Summerizing_with_LDA.ipynb-
+Latent Dirichlet Allocation is a generative statistical model that allows sets of observations to be explained by unobserved groups.
+
+## 5. _Sentiment_Analysis.ipynb-
+Deals with the Sentiment Analysis. Determines the emotional tone behind words to gain understanding of the attitudes, opinions and emotions expressed within the book. Plots of the average sentiments in the book, chapterwise.
+
+## 6. _last_Sherlock_with_Cloud_TPUs_and_Keras.ipynb-
+In this section, we tried to predict the next possible 100 words by training the model with the certain chunk of data as input. 
